@@ -1,1 +1,8 @@
-```npm install sass -v 3.7.4```
+Install Sass (if not already installed):
+`npm install -g sass`
+
+Create the Sass file (0-debug_log.scss):
+`echo '@debug "Hello world";' > 0-debug_log.scss`
+
+Run the Sass command:
+`sass 0-debug_log.scss`
