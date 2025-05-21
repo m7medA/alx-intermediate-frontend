@@ -1,0 +1,11 @@
+@mixin marginLeftRight {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+body {
+  @include marginLeftRight;
+  div {
+    @include marginLeftRight;
+  }
+}
